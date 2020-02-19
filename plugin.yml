@@ -1,0 +1,6 @@
+---
+name: Sponges
+version: 1.0.0
+main: Invy55\Sponges\Main
+api: 3.0.0
+...

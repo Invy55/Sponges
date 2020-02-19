@@ -1,0 +1,9 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Invy55/Sponges
+build-by-default: true
+branches:
+- master
+projects:
+  Sponges:
+    path: ""
+    icon: "Sponge_JE3_BE3.png"
+...
