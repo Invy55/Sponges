@@ -3,10 +3,7 @@
 [![](https://poggit.pmmp.io/shield.dl.total/Sponges)](https://poggit.pmmp.io/p/Sponges)
 
 # Sponges
-A PocketMine-MP plugin that makes sponges working.
+A PocketMine-MP plugin that makes sponges working. **Don't trust copies, I'm the original xD**
 
 ## Usage
 Simply drop the phar file into your plugin folder and enjoy.
-
-#### To add
-Sponges can absorb water when water is placed near them if not wet.
