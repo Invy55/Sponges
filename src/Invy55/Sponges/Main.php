@@ -128,39 +128,3 @@ class Main extends PluginBase implements Listener{
         return $l;
     }
 }
-
-
-class setBlockTask extends Task{
-    public function __construct($that, $level, $vector, $block, $firstP, $secondP){
-        $this->plugin = $that;
-        $this->level = $level;
-        $this->vector = $vector;
-        $this->block = $block;
-        $this->fP = $firstP;
-        $this->sP = $secondP;
-    }
-
-    public function getPlugin(){
-        return $this->plugin;
-    }
-
-    public function onRun($currentTick){
-        $this->level->addParticle(new DestroyBlockParticle($this->vector, Block::get(Block::STONE,0)));
-        $this->level->setBlock($this->vector, $this->block, $this->fP, $this->sP);
-    }
-}
-
-class absorbWaterTask extends Task{
-    public function __construct($that, $position){
-        $this->plugin = $that;
-        $this->position = $position;
-    }
-
-    public function getPlugin(){
-        return $this->plugin;
-    }
-
-    public function onRun($currentTick){
-        $this->getPlugin()->absorbWater($this->position);
-    }
-}
