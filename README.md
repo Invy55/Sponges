@@ -3,6 +3,7 @@
 [![](https://poggit.pmmp.io/shield.dl.total/Sponges)](https://poggit.pmmp.io/p/Sponges)
 
 # Sponges
+**WARNING: Some plugin copied the old version of this plugin, don't trust them, use this updated version**
 A PocketMine-MP plugin that makes sponges working. **Don't trust copies, I'm the original xD**
 
 ## Usage
